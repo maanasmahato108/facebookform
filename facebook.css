@@ -1,0 +1,41 @@
+body{
+    background : url('FB.jpg') no-repeat center/cover fixed;
+}
+form{
+    font-style : italic;
+    color :black;
+    border : 1% solid black;
+    border-radius : 1rem;
+    width : 94%;
+    padding : 4%;
+    margin : auto;
+    text-align: center;
+}
+form input{
+    margin-bottom: 0.5rem;
+}
+form input:hover{
+    padding-inline-start: 15px;
+    padding-inline-end: 15px;
+}
+a:hover{
+    color : green;
+    border : 1% solid white;
+    background-color: white;
+}
+
+@media (min-width: 220px) and (max-width: 360px){
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
+@media(max-width: 219px){
+    form input{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
